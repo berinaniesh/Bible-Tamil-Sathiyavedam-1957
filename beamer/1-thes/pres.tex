@@ -1,0 +1,167 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  ignorenonframetext,
+]{beamer}
+\usepackage{pgfpages}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+% Prevent slide breaks in the middle of a paragraph
+\widowpenalties 1 10000
+\raggedbottom
+\setbeamertemplate{part page}{
+  \centering
+  \begin{beamercolorbox}[sep=16pt,center]{part title}
+    \usebeamerfont{part title}\insertpart\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+  \centering
+  \begin{beamercolorbox}[sep=12pt,center]{part title}
+    \usebeamerfont{section title}\insertsection\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center]{part title}
+    \usebeamerfont{subsection title}\insertsubsection\par
+  \end{beamercolorbox}
+}
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\newif\ifbibliography
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\title{I தெசலோனிக்கேயர்}
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}{Verse 1}
+\protect\hypertarget{verse-1}{}
+பவுலும், சில்வானும், தீமோத்தேயும், பிதாவாகிய தேவனுக்குள்ளும் கர்த்தராகிய
+இயேசுகிறிஸ்துவுக்குள்ளும் இருக்கிற தெசலோனிக்கேயர் சபைக்கு எழுதுகிறதாவது:
+நம்முடைய பிதாவாகிய தேவனாலும் கர்த்தராகிய இயேசுகிறிஸ்துவினாலும்
+உங்களுக்குக் கிருபையும் சமாதானமும் உண்டாவதாக.
+\end{frame}
+
+\begin{frame}{Verse 2}
+\protect\hypertarget{verse-2}{}
+தேவனுக்குப் பிரியமான சகோதரரே, உங்கள் விசுவாசத்தின் கிரியையையும், உங்கள்
+அன்பின் பிரயாசத்தையும், நம்முடைய கர்த்தராகிய இயேசுகிறிஸ்துவின்மேலுள்ள
+உங்கள் நம்பிக்கையின் பொறுமையையும், நம்முடைய பிதாவாகிய தேவனுக்குமுன்பாக
+நாங்கள் இடைவிடாமல் நினைவுகூர்ந்து,
+\end{frame}
+
+\begin{frame}{Verse 3}
+\protect\hypertarget{verse-3}{}
+நீங்கள் தெரிந்துகொள்ளப்பட்டவர்களென்று நாங்கள் அறிந்து,
+\end{frame}
+
+\begin{frame}{Verse 4}
+\protect\hypertarget{verse-4}{}
+எங்கள் ஜெபங்களில் இடைவிடாமல் உங்களைக்குறித்து விண்ணப்பம்பண்ணி,
+உங்களெல்லாருக்காகவும் எப்பொழுதும் தேவனை ஸ்தோத்திரிக்கிறோம்.
+\end{frame}
+
+\begin{frame}{Verse 5}
+\protect\hypertarget{verse-5}{}
+எங்கள் சுவிசேஷம் உங்களிடத்தில் வசனத்தோடேமாத்திரமல்ல, வல்லமையோடும்,
+பரிசுத்த ஆவியோடும், முழுநிச்சயத்தோடும் வந்தது; நாங்களும் உங்களுக்குள்ளே
+இருந்தபோது உங்கள்நிமித்தம் எப்படிப்பட்டவர்களாயிருந்தோமென்று
+அறிந்திருக்கிறீர்களே.
+\end{frame}
+
+\begin{frame}{Verse 6}
+\protect\hypertarget{verse-6}{}
+நீங்கள் மிகுந்த உபத்திரவத்திலே, பரிசுத்த ஆவியின் சந்தோஷத்தோடே,
+திருவசனத்தை ஏற்றுக்கொண்டு, எங்களையும் கர்த்தரையும் பின்பற்றுகிறவர்களாகி,
+\end{frame}
+
+\begin{frame}{Verse 7}
+\protect\hypertarget{verse-7}{}
+இவ்விதமாய் மக்கெதோனியாவிலும் அகாயாவிலுமுள்ள விசுவாசிகள் யாவருக்கும்
+மாதிரிகளானீர்கள்.
+\end{frame}
+
+\begin{frame}{Verse 8}
+\protect\hypertarget{verse-8}{}
+எப்படியெனில், உங்களிடத்திலிருந்து கர்த்தருடைய வசனம் மக்கெதோனியாவிலும்
+அகாயாவிலும் தொனித்ததுமல்லாமல், நாங்கள் அதைக்குறித்து ஒன்றும்
+சொல்லவேண்டியதாயிராதபடிக்கு, தேவனைப்பற்றின உங்கள் விசுவாசம் எங்கும்
+பிரசித்தமாயிற்று.
+\end{frame}
+
+\begin{frame}{Verse 9}
+\protect\hypertarget{verse-9}{}
+ஏனெனில், அவர்கள்தாமே எங்களைக்குறித்து, உங்களிடத்தில் நாங்கள் அடைந்த
+பிரவேசம் இன்னதென்பதையும், ஜீவனுள்ள மெய்யான தேவனுக்கு ஊழியஞ்செய்வதற்கு,
+நீங்கள் விக்கிரகங்களைவிட்டு தேவனிடத்திற்கு மனந்திரும்பினதையும்,
+\end{frame}
+
+\begin{frame}{Verse 10}
+\protect\hypertarget{verse-10}{}
+அவர் மரித்தோரிலிருந்தெழுப்பினவரும், இனிவரும் கோபாக்கினையினின்று நம்மை
+நீங்கலாக்கி இரட்சிக்கிறவருமாயிருக்கிற அவருடைய குமாரனாகிய இயேசு
+பரலோகத்திலிருந்து வருவதை நீங்கள் எதிர்பார்த்துக்கொண்டிருக்கிறதையும்,
+அறிவிக்கிறார்களே.
+\end{frame}
+
+\end{document}

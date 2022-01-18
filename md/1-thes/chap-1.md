@@ -1,6 +1,8 @@
 ---
-title: 
-- I தெசலோனிக்கேயர்
+title: I தெசலோனிக்கேயர்
+lang: ta
+mainfont: Noto Sans Tamil Regular
+
 ---
 
 # Verse 1
