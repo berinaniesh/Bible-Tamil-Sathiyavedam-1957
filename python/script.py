@@ -6,7 +6,12 @@ for file in glob.glob("/home/berinaniesh/Development/Bible-Tamil-Sathiyavedam-19
         for line in lines:
             split_string = line.split()
             if split_string[0] == "\p":
-                print("True")
                 continue
             if split_string[0] == "\id":
-                print("hoo haa")
+                continue
+            if split_string[0] == "\mt"
+            if split_string[0] == "\c":
+                continue
+            if split_string[0] == "\v":
+                continue
+            if split_string[0] == ""
